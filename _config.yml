@@ -21,7 +21,7 @@ cusdis:
 
 user:
   name: ParresíaBlog
-  pic: /assets/img/cat.jpg
+  pic: /assets/img/blogseptiembre.png
   picAlt: "ParresíaBlog"
   job: Blog para algunas palabras...
   aboutme: true # comment this out if you don't need the 'about' page.
