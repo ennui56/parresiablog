@@ -11,9 +11,9 @@
    ========================================================================== */
 
 @mixin lightMode {
-    --bg_color: #eee;
-    --header_bg: #fafafa;
-    --content_bg: #fff;
+    --bg_color: #F1EBD8;
+    --header_bg: #f5f2da;
+    --content_bg: #F6E8B8;
     --archive_font: #000;
     --archive_title: #46a891;
     --archive_title_hover: #87CDBD;
@@ -37,9 +37,9 @@
 }
 
 @mixin darkMode {
-    --bg_color: #1C1C1E;
-    --header_bg: #24292E;
-    --content_bg: #2F3437;
+    --bg_color: #585858;
+    --header_bg: #3e4144;
+    --content_bg: #414141;
     --archive_font: #CACCCE;
     --archive_title: #46a891;
     --archive_title_hover: #87CDBD;
@@ -56,8 +56,8 @@
     --post_link_hover: #D4CEF2;
     --inlinecode_text: #FFAA00;
     --blockquote: #CACCCE;
-    --footer_font_a: #d1d1d1;
-    --border_radius: 1px;
+    --footer_font_a: #000;
+    --border_radius: 15px;
 }
 
 
@@ -111,7 +111,7 @@ body {
     height: 100%;
     font-weight: normal;
     font-style: normal;
-    font-family: -apple-system, BlinkMacSystemFont, 'Titillium Web', "Segoe UI", Roboto, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: -apple-system, BlinkMacSystemFont, 'Crimson Text', "Segoe UI", Roboto, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     margin: 0;
     padding: 0;
     background-color: var(--bg_color);
@@ -274,7 +274,7 @@ img {
 }
 
 .archive_year {
-    font-size: 1.2rem;
+    font-size: 2.0rem;
     margin-top: 1.4rem;
     margin-bottom: 0.6rem;
 }
@@ -346,14 +346,14 @@ img {
 .header_name {
     display: block;
     color: var(--name_font);
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 
 .header_job {
     display: block;
     margin-top: .1rem;
     color: var(--job_font);
-    font-size: 0.75em;
+    font-size: 1.20em;
     font-weight: 700;
 }
 
@@ -435,7 +435,7 @@ img {
 
     & a {
         color: var(--nav_font);
-        font-size: 90%;
+        font-size: 130%;
 
         &:hover,
         &:focus {
@@ -516,7 +516,7 @@ img {
 
 .post_title {
     color: var(--post_title);
-    font-size: 1.8rem;
+    font-size: 2.0rem;
     line-height: 2.2rem;
     font-weight: 700;
 
@@ -557,7 +557,7 @@ img {
 }
 
 .post_content {
-    font-size: 0.95rem;
+    font-size: 1.5rem;
     line-height: 1.5rem;
     color: var(--post_text);
 
@@ -595,7 +595,7 @@ img {
     }
 
     pre {
-        font-size: 0.85rem;
+        font-size: 1.0rem;
         text-decoration: none;
         display: block;
         padding: 1rem;
@@ -705,7 +705,7 @@ img {
     height: 2.4rem;
     text-align: center;
     color: var(--footer_font);
-    font-size: 0.7rem;
+    font-size: 1.0rem;
 
     a {
         text-decoration: none;
