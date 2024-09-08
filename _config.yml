@@ -23,7 +23,7 @@ user:
   name: ParresíaBlog
   pic: /assets/img/cat.jpg
   picAlt: "ParresíaBlog"
-  job: Editor
+  job: Blog para algunas palabras...
   aboutme: true # comment this out if you don't need the 'about' page.
 
 exclude:
