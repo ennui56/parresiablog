@@ -1,5 +1,5 @@
 ---
-title: Alfonsina y su madre de soledad
+title: Alfonsina y su mar de soledad
 categories: [Sergio]
 comments: true
 ---
@@ -15,3 +15,4 @@ El sentimiento de despojo es uno de tantos que aparecen en los momentos difícil
 
 
 {% include open-embed.html %}
+
